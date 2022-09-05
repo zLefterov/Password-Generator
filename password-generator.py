@@ -27,5 +27,4 @@ def generate_random_password():
         password.append(random.choice(characters))
     random.shuffle(password)     
     print(''.join(password))
-    
 generate_random_password()
